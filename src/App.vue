@@ -1,8 +1,11 @@
-<!-- <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import NavBarMine from './components/NavBarMine.vue'
+import FooterMine from './components/FooterMine.vue'
+
+
 </script>
 
-<template>
+<!-- <template>
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -33,11 +36,12 @@ import HelloWorld from './components/HelloWorld.vue'
  <template>
 
     <!-- Main Content -->
-
+    <div><NavBarMine />
+        </div>
       <div class="row">
         <div class="col-12 col-md-6 p-4 leftCol">
           <!-- Left Column Content -->
-          <h2 class="px-3">Main Section Left Column</h2>
+          <h2 class="px-3">Main column left side</h2>
           <div class="row">
             <div class="col-12 mx-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, accusamus.</div>
             <div class="col-12">
@@ -87,6 +91,7 @@ import HelloWorld from './components/HelloWorld.vue'
                   </div>
                 </form>
               </div>
+              <div class="sans-extralight-italic">Test Light</div>
               
             </div>
           </div>
@@ -99,6 +104,10 @@ import HelloWorld from './components/HelloWorld.vue'
           <!-- <h2>Main Section Right Column</h2> -->
           <!-- Add your content here -->
         </div>
+      </div>
+
+      <div>
+        <FooterMine />
       </div>
    
 
@@ -133,5 +142,11 @@ import HelloWorld from './components/HelloWorld.vue'
             align-items: center;
             justify-content: center;
             color: #fff; /* Set text color for the overlay */
+
+            
+        }
+
+        body {
+          font-family: "IBM Plex Sans", sans-serif;
         }
 </style>
