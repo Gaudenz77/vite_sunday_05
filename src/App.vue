@@ -100,7 +100,7 @@ import FooterMine from './components/FooterMine.vue'
         <div class="col-12 col-md-6 mb-5 px-2">
           <!-- Right Column Content with Background Image -->
           <!-- <div class="dark-overlay"></div> -->
-          <img class="col-12 image-fluid mb-4 p-0 p-md-5" src="./assets/spaceflow_office_orig.png" alt="" srcset="">
+          <img class="col-12 image-fluid mb-4 p-0 p-md-5" src="./assets/spaceflow_office_orig.png" alt="office space illustration flat design" srcset="">
           <!-- <h2>Main Section Right Column</h2> -->
           <!-- Add your content here -->
         </div>
