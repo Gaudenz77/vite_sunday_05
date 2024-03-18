@@ -75,7 +75,7 @@ import FooterMine from './components/FooterMine.vue'
                     </select>
                   </div>
                   <div class="col-md-2">
-                    <label for="inputZip" class="form-label">Zip</label>
+                    <label for="inputZip" class="form-label">Zipe</label>
                     <input type="text" class="form-control" id="inputZip">
                   </div>
                   <div class="col-12">
