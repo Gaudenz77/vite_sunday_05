@@ -41,7 +41,7 @@ import FooterMine from './components/FooterMine.vue'
       <div class="row">
         <div class="col-12 col-md-6 p-4 leftCol">
           <!-- Left Column Content -->
-          <h2 class="px-3">Main column left side GIT KRAKEN AHOY</h2>
+          <h2 class="px-3">Main column left side GIT KRAKEN AHOY AHOY AHOY</h2>
           <div class="row">
             <div class="col-12 mx-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, accusamus.</div>
             <div class="col-12">
